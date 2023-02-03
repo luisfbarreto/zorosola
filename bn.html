@@ -10,21 +10,29 @@
         body{
             background-color: #201f1f;
             text-align: center;
+            padding: 50px;
         }
 
-        body > iframe{
-            margin: auto;
-            padding-top: 150px;
-            padding-bottom: 20px;
-        }
-        body > img{
-            padding: 20px;
+        .div-video iframe{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 10px;
+
         }
     </style>
 
 </head>
 <body>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bmFAkmhLQa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+    <div class="container">
+        <div class="div-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bmFAkmhLQa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <br>
     <a href="index.html"><img src="img/voltar.png" alt="voltar"></a>
 
     

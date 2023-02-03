@@ -65,10 +65,12 @@ article > audio{
 
 footer{
     background-color: var(--cor1);
-    padding: 15px;
+    min-height: 77px;
 }
 
 footer > p{
-    font-family: cursive, sans-serif:
+    font-family: cursive, sans-serif;
     color: white;
+    padding: 20px 0px 10px 0px;
+    margin: auto;
 }
