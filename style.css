@@ -12,6 +12,7 @@
 }
 
 body{
+    background-color: var(--cor3);
     font-family: 'Aboreto', cursive;
     color: rgb(3, 141, 3);
     font-weight: bold;
